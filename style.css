@@ -1,0 +1,64 @@
+@font-face {
+  font-family: CopperplateFont;
+  src: url("fonts/Copperplate Gothic Light Regular.ttf"); }
+body {
+  background: url("images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  position: relative; }
+  body header {
+    margin: auto;
+    width: 50%;
+    border: 10px solid #330000;
+    border-radius: 15px;
+    -webkit-box-shadow: 8px 9px #4d0000;
+    -moz-box-shadow: 8px 9px #4d0000;
+    box-shadow: 3px 8px 9px #4d0000;
+    padding: 10px;
+    text-align: center; }
+    body header h1 {
+      font-family: CopperplateFont, sans-serif;
+      font-size: 180%;
+      color: #330000;
+      text-shadow: 3px 3px 2px #660000; }
+    body header #menu button {
+      border-radius: 6px;
+      width: 120px;
+      background-color: #4d0000;
+      color: white; }
+    body header #menu button:hover {
+      border-radius: 6px;
+      width: 120px;
+      background-color: white;
+      color: #4d0000;
+      box-shadow: 3px 8px 9px #4d0000; }
+  body #container .button {
+    margin: auto;
+    margin-top: 4px;
+    text-align: center;
+    width: 130px;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 3px 12px 12px #4d0000; }
+    body #container .button a {
+      text-decoration: none;
+      color: #4d0000; }
+  body #container .button:hover {
+    border: 2px solid;
+    text-align: center;
+    margin-top: 4px;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 3px 12px 12px #4d0000;
+    text-shadow: 3px 3px 2px white; }
+    body #container .button:hover a {
+      text-decoration: underline;
+      color: #4d0000;
+      text-shadow: 3px 3px 5px #330000; }
+
+/*# sourceMappingURL=style.css.map */
